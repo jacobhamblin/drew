@@ -12,10 +12,14 @@ export default class extends Component {
 
   render() {
     return (
-      <ul className="Navigation" role="menu">
-        <li><a href="/" onClick={Link.handleClick}>Home</a></li>
-        <li><a href="/about" onClick={Link.handleClick}>About</a></li>
-      </ul>
+      <div className="Navigation contained">
+        <ul role="menu">
+          <li><a href="/" onClick={Link.handleClick}>Home</a></li>
+          <li><a href="/about" onClick={Link.handleClick}>About</a></li>
+          <li><a href="/company" onClick={Link.handleClick}>Company</a></li>
+          <li><a href="/faq" onClick={Link.handleClick}>FAQ</a></li>
+        </ul>
+      </div>
     );
   }
 
