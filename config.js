@@ -5,8 +5,7 @@
  */
 
 export default {
-  title: 'React Static Boilerplate',
-  description: 'Static website generator for React.js web applications.',
+  title: 'Scottsdale Family Dentistry',
+  description: 'General Practitioner Drew Brown',
   googleAnalyticsId: 'UA-XXXXX-X',
 };
-
