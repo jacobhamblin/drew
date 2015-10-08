@@ -4,10 +4,10 @@ export default class extends Component {
 
   render() {
     return (
-      <div className="company">
+      <div className="services">
         <section className="light">
           <div className="contained">
-            <h1>Company Page</h1>
+            <h1>Services Offered</h1>
             <p>Coming soon.</p>
           </div>
         </section>
