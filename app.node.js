@@ -92,11 +92,11 @@ module.exports =
       return __webpack_require__(12);
     }, '/blog/test-article-two': function blogTestArticleTwo() {
       return __webpack_require__(13);
-    }, '/company': function company() {
-      return __webpack_require__(14);
     }, '/faq': function faq() {
-      return __webpack_require__(15);
+      return __webpack_require__(14);
     }, '/': function _() {
+      return __webpack_require__(15);
+    }, '/services': function services() {
       return __webpack_require__(16);
     } }; // Auto-generated on build. See tools/lib/routes-loader.js
 
@@ -525,8 +525,8 @@ module.exports =
               null,
               _react2['default'].createElement(
                 'a',
-                { href: '/company', onClick: _Link2['default'].handleClick },
-                'Company'
+                { href: '/services', onClick: _Link2['default'].handleClick },
+                'Services'
               )
             ),
             _react2['default'].createElement(
@@ -1009,91 +1009,6 @@ module.exports =
       value: function render() {
         return _react2["default"].createElement(
           "div",
-          { className: "company" },
-          _react2["default"].createElement(
-            "section",
-            { className: "light" },
-            _react2["default"].createElement(
-              "div",
-              { className: "contained" },
-              _react2["default"].createElement(
-                "h1",
-                null,
-                "Company Page"
-              ),
-              _react2["default"].createElement(
-                "p",
-                null,
-                "Coming soon."
-              )
-            )
-          ),
-          _react2["default"].createElement(
-            "section",
-            { className: "dark" },
-            _react2["default"].createElement(
-              "div",
-              { className: "contained" },
-              _react2["default"].createElement(
-                "h1",
-                null,
-                "Continued"
-              ),
-              _react2["default"].createElement(
-                "p",
-                null,
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-              )
-            )
-          )
-        );
-      }
-    }]);
-
-    return _default;
-  })(_react.Component);
-
-  exports["default"] = _default;
-  module.exports = exports["default"];
-
-/***/ },
-/* 15 */
-/***/ function(module, exports, __webpack_require__) {
-
-  "use strict";
-
-  Object.defineProperty(exports, "__esModule", {
-    value: true
-  });
-
-  var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
-
-  var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; desc = parent = getter = undefined; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; continue _function; } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
-
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
-
-  function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-  function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-  var _react = __webpack_require__(1);
-
-  var _react2 = _interopRequireDefault(_react);
-
-  var _default = (function (_Component) {
-    _inherits(_default, _Component);
-
-    function _default() {
-      _classCallCheck(this, _default);
-
-      _get(Object.getPrototypeOf(_default.prototype), "constructor", this).apply(this, arguments);
-    }
-
-    _createClass(_default, [{
-      key: "render",
-      value: function render() {
-        return _react2["default"].createElement(
-          "div",
           { className: "faq" },
           _react2["default"].createElement(
             "section",
@@ -1142,7 +1057,7 @@ module.exports =
   module.exports = exports["default"];
 
 /***/ },
-/* 16 */
+/* 15 */
 /***/ function(module, exports, __webpack_require__) {
 
   /**
@@ -1196,6 +1111,91 @@ module.exports =
                 "h1",
                 null,
                 "Home Page"
+              ),
+              _react2["default"].createElement(
+                "p",
+                null,
+                "Coming soon."
+              )
+            )
+          ),
+          _react2["default"].createElement(
+            "section",
+            { className: "dark" },
+            _react2["default"].createElement(
+              "div",
+              { className: "contained" },
+              _react2["default"].createElement(
+                "h1",
+                null,
+                "Continued"
+              ),
+              _react2["default"].createElement(
+                "p",
+                null,
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+              )
+            )
+          )
+        );
+      }
+    }]);
+
+    return _default;
+  })(_react.Component);
+
+  exports["default"] = _default;
+  module.exports = exports["default"];
+
+/***/ },
+/* 16 */
+/***/ function(module, exports, __webpack_require__) {
+
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+
+  var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+  var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; desc = parent = getter = undefined; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; continue _function; } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+
+  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+  function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+  function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+  var _react = __webpack_require__(1);
+
+  var _react2 = _interopRequireDefault(_react);
+
+  var _default = (function (_Component) {
+    _inherits(_default, _Component);
+
+    function _default() {
+      _classCallCheck(this, _default);
+
+      _get(Object.getPrototypeOf(_default.prototype), "constructor", this).apply(this, arguments);
+    }
+
+    _createClass(_default, [{
+      key: "render",
+      value: function render() {
+        return _react2["default"].createElement(
+          "div",
+          { className: "services" },
+          _react2["default"].createElement(
+            "section",
+            { className: "light" },
+            _react2["default"].createElement(
+              "div",
+              { className: "contained" },
+              _react2["default"].createElement(
+                "h1",
+                null,
+                "Services Offered"
               ),
               _react2["default"].createElement(
                 "p",
